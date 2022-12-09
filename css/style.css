@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+:root {
+    --azulescuro: #8d99ae;
+    --roxo: #2b2d42;
+    --cinza: #edf2f4;
+    --cinzaclaro: #ffffff;
+    --quasepreto: #000000;
+    --preto: #000000;
+    --branco: #ffffff;
+}
+header{
+    background-image: url(../imagens/5Gworld.jpeg);
+    padding-top: 20px;
+    min-height: 55px;
+}
+
+.site {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+    padding-left: 25px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 8px groove var(--azulescuro);
+    box-shadow: 6px 6px var(--preto);
+}
+
+body {
+    background-color: var(--quasepreto);
+}
+
+h1 {
+    color: var(--cinzaclaro);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7px;
+    text-indent: 14px;
+    text-shadow: 3px 3px var(--preto);
+}
+
+h2 {
+    color: var(--cinzaclaro);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-indent: 14px;
+}
+
+h3 {
+    color: var(--cinzaclaro);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    text-indent: 14px;
+}
+
+p {
+    color: var(--cinzaclaro);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 9px;
+    text-indent: 10px;
+    line-height: 1.5em;
+    font-size: 17px;
+    padding-bottom: 9px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+ul {
+    background-color: var(--quasepreto);
+}
+
+a {
+    color: var(--quasepreto);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+nav {
+    width: 910px;
+    height: 28px;
+    border: 6px groove var(--azulescuro);
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 16px;
+    background-color: var(--azulescuro);
+    box-shadow: 6px 6px var(--preto);
+}
+
+.vrumm > .menu > li {
+    background-color: var(--azulescuro);
+    color: var(--branco);
+    float: left;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    font-size: 24px;
+}
+.vrumm > .menu > li:hover {
+    background-color: var(--branco);
+}
+.vrumm > .menu > li > a {
+    text-decoration: none;
+}
+.vrumm > .menu > li > ul > li > a {
+    text-decoration: none;
+}
+.vrumm > .menu > li > ul {
+    display: none;
+}
+.vrumm > .menu > li > ul > li {
+    background-color: var(--azulescuro);
+    list-style: none;
+}
+.vrumm > .menu > li:hover {
+    background-color: var(--cinza);
+}
+.vrumm > .menu > li > ul > li:hover {
+    background-color: var(--cinza);
+}
+.vrumm > .menu > li:hover > ul {
+    display: block;
+    position: relative;
+}
+
+.contact {
+    margin: 5px 5px 5px 5px;
+    padding: 9px;
+}
+
+legend {
+    font-size: 20px;
+    color: var(--cinzaclaro);
+    padding: 5px;
+    font-weight: bold;
+}
+
+.opn2, .aboutyou, .opn {
+    padding: 10px;
+}
+
+label {
+    color: var(--cinzaclaro);
+    padding: 8px;
+    text-indent: 10px;
+}
+
+ul {
+    background-color: var(--quasepreto);
+}
+
+li {
+    color: var(--cinzaclaro);
+}
+
+.list {
+    padding: 3px 35px 3px;
+}
+
+.sublist {
+    padding-left: 30px;
+}
+
+.imgPicture {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.imgSource {
+    max-width: 100%;
+    position: center;
+    margin: 0;
+    display: flex;
+}
+
+.imgs {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.secret > a {
+    color: var(--preto);
+}
+
+.video {
+    max-width: 35%;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.vidSource {
+    max-width: 35%;
+    position: center;
+    margin: 0;
+    display: flex;
+}
+
+.inVideo {
+    width: 550px;
+    position: center;
+    margin: auto;
+    display: flex;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acolhimento</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="site">OATI</h1>
+    </header>
+    <nav class="vrumm">
+        <ul class="menu">
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="sobre.html" rel="next">Sobre nós</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contribuir.html">Contribuições</a>
+                <ul>
+                    <li><a href="doar.html">Doações</a></li>
+                    <li><a href="voluntario.html">Voluntariado</a></li>
+                </ul>
+            </li>
+            <li><a href="ajuda.html">Ajuda</a></li>
+        </ul>
+    </nav>
+    <main>
+        <audio controls preload="metadata">
+            <source src="midia/musiquinha.mp3" type="audio/mpeg">
+            <source src="midia/musiquinha.ogg" type="audio/ogg">
+            <source src="midia/musiquinha.wav" type="audio/mav">
+            <p>Estamos com problemas com a musiquinha, foi mal!</p>
+        </audio>
+
+        <h1>Acolhimento</h1>
+        
+        <p>Nos mande seus dados e entraremos em contato para ajudar você!</p>
+       
+        <h2>Faça seu cadastro!</h2>
+
+        <form>
+            <div class="ajuda">
+                <fieldset>
+                    <legend>Cadastro</legend>
+                    <p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="50" placeholder="Nome completo"></p>
+                    <p><label for="idEmail">Email:</label><input type="email" name="nEmail" id="idEmail" placeholder="exemplo01@gmail.com"></p>
+                    <p><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha" placeholder="senha do email"></p>
+                    <p><label for="idCSenha">Confirme sua senha:</label><input type="password" name="nCSenha"id="idCSenha" placeholder="confirmação senha do email"></p>
+                    <p><label for="idNasc">Data de nascimento:</label><input type="date" name="nNascimento" id="idNasc"></p>
+                    <p>
+                        <fieldset>
+                            <legend></legend>
+                            <label for="idproblema">Qual exatamente é o seu problema?</label><br><textarea type="text" cols="70"
+                                rows="5" placeholder="Fui expulso / sou viciado em miojo / quero me matar..." name="nRank" id="idproblema"></textarea><br>
+                            <fieldset>
+                                <label for="idNum">Seu nível de desespero:</label><br><input type="number" name="nNumero" id="idNum"
+                                        min="0" max="10">
+                                <br>
+                            </fieldset>
+                        </fieldset>
+                    </p>
+                </fieldset>
+            </div>
+        </form>
+        <p>Sempre será acolhido conosco!<a href="morte.html">!</a></p>
+    </main>
+</body>
